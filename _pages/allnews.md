@@ -1,15 +1,11 @@
 ---
-title: "News | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+title: "News | Language and Data Intelligence Lab"
 layout: textlay
-excerpt: "News | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+excerpt: "News | Language and Data Intelligence Lab"
 sitemap: false
 permalink: /allnews.html
 ---
-
-# News
-
 {% for article in site.data.news %}
 
 <p>{{ article.date }} <br>
-<em>{{ article.headline }}</em></p>
 {% endfor %}

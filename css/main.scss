@@ -9,6 +9,32 @@ img { margin-bottom: 24px;
 }
 
 
+.navbar-default {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+    color: #f8f9fa;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #adb5bd;
+}
+
+#footer .panel-footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    border-top: none;
+}
+
+#footer a {
+    color: #f8f9fa;
+    text-decoration: underline;
+}
+
 body {
 	padding-top: 70px;
 }

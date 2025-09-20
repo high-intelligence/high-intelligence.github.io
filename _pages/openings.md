@@ -1,7 +1,7 @@
 ---
-title: "Openings | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+title: "Openings | Language and Data Intelligence Lab"
 layout: textlay
-excerpt: "Openings | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+excerpt: "Openings | Language and Data Intelligence Lab"
 sitemap: false
 permalink: /vacancies/
 ---

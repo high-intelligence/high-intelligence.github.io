@@ -1,12 +1,13 @@
 
-<div class="well">
-<h4>News</h4>
-
-{% for article in site.data.news limit:9 %}
-{{ article.date }}
-<p>{{ article.headline }}</p>
-{% endfor %}
-
-<h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h4>
-
-    </div>
+<div class="well" style="padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4 style="border-bottom: 2px solid #6c757d; padding-bottom: 10px; margin-top: 0; color: #495057;">Latest News</h4>
+    <ul style="list-style-type: none; padding-left: 0;">
+    {% for article in site.data.news limit:5 %}
+        <li style="margin-bottom: 15px; border-bottom: 1px solid #eee; padding-bottom: 10px;">
+            <span style="display: block; font-weight: bold; color: #555;">{{ article.date }}</span>
+            <p style="margin-top: 5px; margin-bottom: 0;">{{ article.headline }}</p>
+        </li>
+    {% endfor %}
+    </ul>
+    <h4 style="text-align: right; margin-top: 15px;"><a href="{{ site.url }}{{ site.baseurl }}/allnews.html" style="color: #6c757d; text-decoration: none;">... see all News</a></h4>
+</div>

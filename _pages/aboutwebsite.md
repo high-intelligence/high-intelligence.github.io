@@ -1,7 +1,7 @@
 ---
-title: "About | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+title: "About | Language and Data Intelligence Lab"
 layout: textlay
-excerpt: "About | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+excerpt: "About | Language and Data Intelligence Lab"
 sitemap: false
 permalink: /aboutwebsite.html
 ---

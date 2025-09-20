@@ -1,76 +1,118 @@
-- title: "Quantitative and Real‐Time Control of 3D Printing Material Flow Through Deep Learning"
-  description:
-  authors: D.A.J. Brion, S.W. Pattinson
-  link:
-    url: https://onlinelibrary.wiley.com/doi/10.1002/aisy.202200153
-    display:  "DOI: 10.1002/aisy.202200153" 
 
-- title: "Generalisable 3D printing error detection and correction via multi-head neural networks"
-  description:
-  authors: D.A.J. Brion, S.W. Pattinson
-  link:
-    url: https://www.nature.com/articles/s41467-022-31985-y
-    display:  "DOI: 10.1038/s41467-022-31985-y" 
-
-- title: "Automated recognition and correction of warp deformation in extrusion additive manufacturing"
-  description:
-  authors: D.A.J. Brion, M. Shen, S.W. Pattinson
-  link:
-    url: https://www.sciencedirect.com/science/article/pii/S2214860422002378
-    display:  "DOI: 10.1016/j.addma.2022.102838" 
- 
-- title: "Printed Materials with Locally Tailored Elasticity for Compliant Wearable and Implantable Devices"
-  description:
-  authors: S.W. Pattinson, M.E. Huber, S. Kim, J. Lee, S. Grunsfeld, R. Roberts, G. Dreifus, C. Meier, L. Liu, N. Hogan,  A.J. Hart
-  link:
-    url: https://onlinelibrary.wiley.com/doi/abs/10.1002/adfm.201901815
-    display:  "DOI: 10.1002/adfm.201901815"
-  
-- title: "Additive Manufacturing of Cellulosic Materials with Robust Mechanics and Antimicrobial Functionality"
-  description:
-  authors: S.W. Pattinson, A.J. Hart
-  link:
-    url: http://onlinelibrary.wiley.com/doi/10.1002/admt.201600084/abstract
-    display:  "DOI: 10.1002/admt.201600084"
-
-- title: "Real-Time Environmental TEM Investigation of Self-Organization and Mechanical Competition in Carbon Nanotube Forest Growth"
-  description:
-  authors: B. Viswanath, M. Bedewy, E.R. Meshot, S.W. Pattinson, E.S. Polsen, F. Laye, D.N. Zakharov, E.A. Stach, A.J. Hart
-  link:
-    url: http://pubs.acs.org/doi/abs/10.1021/acsnano.6b07251?src=recsys
-    display:  "DOI: 10.1021/acsnano.6b07251"
-    
-- title: "Fast Imaging of Carbon Nanotube Growth by Environmental TEM"
-  description:
-  authors: D. N. Zakharov, M. Bedewy, V. Balakrishnan, S.W. Pattinson, E. R. Meshot, A. J. Hart and E. A. Stach
-  link:
-    url: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S1431927615012416
-    display:  "DOI: 10.1017/S1431927615012416"
-
-- title: "High-Speed Roll-to-Roll Manufacturing of Graphene using a Concentric Tube CVD Reactor"
-  description:
-  authors: E. Polsen, D. McNerny, B. Viswanath, S.W. Pattinson, A.J. Hart
-  link:
-    url: https://www.nature.com/articles/srep10257
-    display:  "DOI: 10.1038/srep10257"
-    
-- title: "Mechanism and Enhanced Yield of Carbon Nanotube Growth on Stainless Steel by Oxygen-Induced Surface Reconstruction"
-  description:
-  authors: S.W. Pattinson, B. Viswanath, D. Zakharov, J. Li, E.A. Stach, A.J. Hart
-  link:
-    url: http://pubs.acs.org/doi/abs/10.1021/cm504209u
-    display:  "DOI: 10.1021/cm504209u"
-
-- title: "Crystal Engineering with Graphene"
-  description:
-  authors: P. Gebhardt, S.W. Pattinson, Z. Ren, J. Elliott, D. Cooke, D. Ede
-  link:
-    url: http://pubs.rsc.org/en/content/articlelanding/2014/nr/c4nr00320a#!divAbstract
-    display:  "DOI: 10.1039/C4NR00320A "
-
-- title: "En Route to Controlled Catalytic CVD Synthesis of Densely Packed and Vertically Aligned Nitrogen-Doped Carbon Nanotube Arrays"
-  description:
-  authors: S. Boncel, S.W. Pattinson, V. Geiser, M.S.P. Shaffer, K.K.K. Koziol
-  link:
-    url: https://www.beilstein-journals.org/bjnano/articles/5/24
-    display:  "DOI: 10.3762/bjnano.5.24"
+publications:
+  - title: "In Defense of Core-set: A Density-aware Core-set Selection for Active Learning"
+    authors: "Y Kim, B Shin"
+    venue: "KDD 2022"
+    year: 2022
+  - title: "Learning to generate word representations using subword information"
+    authors: "Y Kim, KM Kim, JM Lee, SK Lee"
+    venue: "COLING 2018, 2551-2561"
+    year: 2018
+  - title: "Client-Customized Adaptation for Parameter-Efficient Federated Learning"
+    authors: "Y Kim, J Kim, WL Mok, JH Park, SK Lee"
+    venue: "ACL 2023 (Findings), 1159-1172"
+    year: 2023
+  - title: "Dynamic Structure Pruning for Compressing CNNs"
+    authors: "JH Park, Y Kim, J Kim, JY Choi, SK Lee"
+    venue: "AAAI 2023"
+    year: 2023
+  - title: "Adaptive compression of word embeddings"
+    authors: "Y Kim, KM Kim, SK Lee"
+    venue: "ACL 2020, 3950-3959"
+    year: 2020
+  - title: "From small-scale to large-scale text classification"
+    authors: "KM Kim, Y Kim, J Lee, JM Lee, SK Lee"
+    venue: "WWW 2019, 853-862"
+    year: 2019
+  - title: "An Interpretable Framework for Drug-Target Interaction with Gated Cross Attention"
+    authors: "Y Kim, B Shin"
+    venue: "MLHC 2021"
+    year: 2021
+  - title: "Multi-pretraining for large-scale text classification"
+    authors: "KM Kim, B Hyeon, Y Kim, JH Park, SK Lee"
+    venue: "EMNLP 2020 (Findings), 2041-2050"
+    year: 2020
+  - title: "Improving Bias Mitigation through Bias Experts in Natural Language Understanding"
+    authors: "E Jeon, M Lee, J Park, Y Kim, WL Mok, SK Lee"
+    venue: "EMNLP 2023, 11053-11066"
+    year: 2023
+  - title: "Leap-of-Thought: Accelerating Transformers via Dynamic Token Routing"
+    authors: "Y Kim, J Kim, JH Park, M Lee, SK Lee"
+    venue: "EMNLP 2023, 15757-15769"
+    year: 2023
+  - title: "Learning from drift: Federated learning on non-IID data via drift regularization"
+    authors: "Y Kim, B Shin"
+    venue: "arXiv preprint arXiv:2309.07189"
+    year: 2023
+  - title: "Multi-stage prompt tuning for political perspective detection in low-resource settings"
+    authors: "KM Kim, M Lee, HS Won, MJ Kim, Y Kim, SK Lee"
+    venue: "Applied Sciences 13 (10), 6252"
+    year: 2023
+  - title: "Context-based Virtual Adversarial Training for Text Classification with Noisy Labels"
+    authors: "Y Kim, DM Lee, C Seo"
+    venue: "LREC 2022"
+    year: 2022
+  - title: "MELT: Materials-aware continued pre-training for language model adaptation to materials science"
+    authors: "J Kim, Y Kim, JH Park, Y Oh, S Kim, SK Lee"
+    venue: "arXiv preprint arXiv:2410.15126"
+    year: 2024
+  - title: "Towards Robust and Generalized Parameter-Efficient Fine-Tuning for Noisy Label Learning"
+    authors: "Y Kim, J Kim, SK Lee"
+    venue: "ACL 2024, 5922-5936"
+    year: 2024
+  - title: "KOMBO: Korean Character Representations Based on the Combination Rules of Subcharacters"
+    authors: "SH Kim, J Park, Y Kim, SK Lee"
+    venue: "ACL 2024 (Findings), 5102-5119"
+    year: 2024
+  - title: "Phase-shifted Adversarial Training"
+    authors: "Y Kim, S Kim, I Seo, B Shin"
+    venue: "UAI 2023"
+    year: 2023
+  - title: "Moleco: Molecular Contrastive Learning with Chemical Language Models for Molecular Property Prediction"
+    authors: "JH Park, H Park, Y Kim, W Lim, SK Lee"
+    venue: "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing"
+    year: 2024
+  - title: "SEED: Semantic knowledge transfer for language model adaptation to materials science"
+    authors: "Y Kim, JH Park, SH Kim, J Park, S Kim, SK Lee"
+    venue: "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing"
+    year: 2024
+  - title: "Zero-shot commonsense reasoning over machine imagination"
+    authors: "H Park, Y Kim, JH Park, SK Lee"
+    venue: "arXiv preprint arXiv:2410.09329"
+    year: 2024
+  - title: "SparseFlow: Accelerating Transformers by Sparsifying Information Flows"
+    authors: "Y Kim, SK Lee"
+    venue: "ACL 2024, 5937-5948"
+    year: 2024
+  - title: "Moltres: Improving chemical language representation learning for molecular property prediction"
+    authors: "JH Park, Y Kim, M Lee, H Park, SK Lee"
+    venue: "arXiv preprint arXiv:2408.01426"
+    year: 2024
+  - title: "A Unified Approach to Word Sense Representation and Disambiguation"
+    authors: "DM Lee, Y Kim, JM Lee, SK Lee"
+    venue: "2018 IEEE 17th International Conference on Cognitive Informatics & Cognitive Computing"
+    year: 2018
+  - title: "Improving Open Directory Project-Based Text Classification with Hierarchical Category Embedding"
+    authors: "JM Lee, KM Kim, Y Kim, SK Lee"
+    venue: "2018 IEEE 17th International Conference on Cognitive Informatics & Cognitive Computing"
+    year: 2018
+  - title: "Forward Knows Efficient Backward Path: Saliency-Guided Memory-Efficient Fine-tuning of Large Language Models"
+    authors: "Y Kim, SK Lee"
+    venue: "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics"
+    year: 2025
+  - title: "Curriculum Debiasing: Toward Robust Parameter-Efficient Fine-Tuning Against Dataset Biases"
+    authors: "M Lee, Y Kim, WL Mok, SK Lee"
+    venue: "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics"
+    year: 2025
+  - title: "Dynamic Layer-Wise Token Pruning for Sequence-to-Sequence Transformer Inference"
+    authors: "JH Keom, Y Kim, SJ Lee, SK Lee"
+    venue: "International Conference on Pattern Recognition and Artificial Intelligence"
+    year: 2024
+  - title: "Representation Learning for Unseen Words by Bridging Subwords to Semantic Networks"
+    authors: "Y Kim, KM Kim, SK Lee"
+    venue: "LREC 2020, 4774-4780"
+    year: 2020
+  - title: "Personalizing large-scale text classification by modeling individual differences"
+    authors: "J Lee, BJ Choi, Y Kim, KM Kim, WJ Ryu, SK Lee"
+    venue: "SAC 2020, 900-902"
+    year: 2020

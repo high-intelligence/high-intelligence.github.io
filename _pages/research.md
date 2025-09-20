@@ -1,22 +1,24 @@
 ---
-title: "Research | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+title: "Research | Language and Data Intelligence Lab"
 layout: textlay
-excerpt: "Research | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+excerpt: "Research | Language and Data Intelligence Lab"
 sitemap: false
 permalink: /research/
 ---
 
 # Research
 
-The Complex Additive Materials Group uses materials chemistry, additive manufacturing, and machine learning to realise entirely new devices and materials whose structure and composition is optimised from the nano- to the macro-scale to improve interaction with the human body and enhance lives.
+
+The Language and Data Intelligence Lab conducts research at the intersection of natural language processing, artificial intelligence, and data science. Our mission is to advance the understanding and application of language technologies for real-world impact.
 
 ![]({{ site.url }}{{ site.baseurl }}/images/respic/venn_diagram.jpg){: style="width: 300px; float: right; border: 10px"}
 
-**Digitally tailored medical devices**  
-Producing wearable and implantable medical devices that better mimic and integrate with patients/wearers.
+**Natural Language Processing (NLP)**  
+Developing models and algorithms for text understanding, generation, and analysis in multiple languages.
 
-**Materials for additive manufacturing**  
-Developing new materials whose structure and composition enable unique functionality.
+**AI for Language and Data**  
+Applying machine learning and deep learning to extract insights from large-scale language and data resources.
 
-**Learning 3D printers**  
-Understanding how machine learning approaches can improve the capabilities of 3D printers.
+**Data-driven Social Impact**  
+Leveraging data intelligence to address challenges in communication, education, and society.
+

@@ -1,7 +1,7 @@
 ---
-title: "Team | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+title: "Team | Language and Data Intelligence Lab"
 layout: gridlay
-excerpt: "Team | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+excerpt: "Team | Language and Data Intelligence Lab"
 sitemap: false
 permalink: /team/
 ---
@@ -68,7 +68,6 @@ permalink: /team/
   </ul>
   <br>
   <br>
-  <i>{{ member.bio }}</i>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}

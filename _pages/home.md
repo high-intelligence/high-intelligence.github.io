@@ -1,12 +1,17 @@
 ---
+<<<<<<< Updated upstream
 title: "Yeachan 예찬"
+=======
+title: "Language and Data Intelligence Lab"
+>>>>>>> Stashed changes
 layout: homelay
-excerpt: "Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+excerpt: "Language and Data Intelligence Lab"
 sitemap: false
 permalink: /
 ---
 
-We are based at the [Institute for Manufacturing](https://ifm.eng.cam.ac.uk) in the [Department of Engineering](http://www.eng.cam.ac.uk/) at the [University of Cambridge](https://cam.ac.uk) using materials chemistry, additive manufacturing, and machine learning to realize entirely new devices and materials whose structure and composition is optimized from the nano- to the macro-scale to improve interaction with the human body and enhance lives.
+
+The Language and Data Intelligence Lab advances research in natural language processing, artificial intelligence, and data science. We focus on developing language technologies and data-driven solutions for real-world impact in communication, education, and society.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
@@ -50,13 +55,14 @@ We are based at the [Institute for Manufacturing](https://ifm.eng.cam.ac.uk) in 
 
 The group is working on:
 
-**Digitally tailored medical devices**  
-Producing wearable and implantable medical devices that better mimic and integrate with patients/wearers.
 
-**Materials for additive manufacturing**  
-Developing new materials whose structure and composition enable unique functionality.
+**Natural Language Processing (NLP)**  
+Developing models and algorithms for text understanding, generation, and analysis in multiple languages.
 
-**Learning 3D printers**  
-Understanding how machine learning approaches can improve the capabilities of 3D printers.
+**AI for Language and Data**  
+Applying machine learning and deep learning to extract insights from large-scale language and data resources.
+
+**Data-driven Social Impact**  
+Leveraging data intelligence to address challenges in communication, education, and society.
 
 <br>
