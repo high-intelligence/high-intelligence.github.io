@@ -1,1 +1,0 @@
-# high-intelligence.github.io
