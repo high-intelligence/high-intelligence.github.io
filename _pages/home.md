@@ -1,9 +1,5 @@
 ---
-<<<<<<< Updated upstream
-title: "Yeachan 예찬"
-=======
 title: "Language and Data Intelligence Lab"
->>>>>>> Stashed changes
 layout: homelay
 excerpt: "Language and Data Intelligence Lab"
 sitemap: false
