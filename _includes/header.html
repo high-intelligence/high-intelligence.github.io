@@ -7,7 +7,10 @@
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 	  </button>
-	<a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">Language and Data Intelligence Lab</a>
+		<a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">
+			<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/hufs_eng_logo.gif" alt="HUFS Logo" style="height:48px; display:inline; margin-right:10px; vertical-align:middle;">
+			Language and Data Intelligence Lab
+		</a>
     </div>
 	<div class="collapse navbar-collapse" id="navbar-collapse-1">
 	  <ul class="nav navbar-nav navbar-right">
@@ -16,10 +19,25 @@
 		<li><a href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a></li>
 		<li><a href="{{ site.url }}{{ site.baseurl }}/research">Research</a></li>
 		<li><a href="{{ site.url }}{{ site.baseurl }}/gallery">Gallery</a></li>
+        <li style="display:flex;align-items:center;">
+          <button id="darkModeToggle" style="background:none; border:none; padding:0 8px; font-size:1.5em; cursor:pointer;" title="Toggle dark mode">
+            <svg id="bulbIcon" xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.3.2.5.5.5.8v1a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-1c0-.3.2-.6.5-.8A7 7 0 0 0 12 2z"/></svg>
+          </button>
+        </li>
 	  </ul>
 	</div>
   </div>
 </div>
-<div class="container-fluid">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/cambridge.png" height="40px" style="margin: -8px 0 0px 0;">
-</div>
+<script>
+(function() {
+  var btn = document.getElementById('darkModeToggle');
+  var dark = localStorage.getItem('dark-mode') === 'true';
+  if (dark) document.body.classList.add('dark-mode');
+  btn.onclick = function() {
+    document.body.classList.toggle('dark-mode');
+    localStorage.setItem('dark-mode', document.body.classList.contains('dark-mode'));
+    btn.querySelector('#bulbIcon').style.transform = document.body.classList.contains('dark-mode') ? 'rotate(180deg)' : 'rotate(0deg)';
+  };
+  btn.querySelector('#bulbIcon').style.transform = document.body.classList.contains('dark-mode') ? 'rotate(180deg)' : 'rotate(0deg)';
+})();
+</script>

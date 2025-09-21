@@ -1,0 +1,33 @@
+---
+title: "Team | Language and Data Intelligence Lab"
+layout: gridlay
+excerpt: "Team | Language and Data Intelligence Lab"
+sitemap: false
+permalink: /team/
+---
+
+<h1>Group Members</h1>
+
+<p>If you are interested in either a Ph.D. or postdoctoral position please get in touch! There is currently an opening for a postdoc/RA!</p>
+
+
+<div class="row">
+{% for member in site.data.team_members %}
+  <div class="col-sm-6">
+    <div class="team-card">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="team-photo" alt="{{ member.name }}" />
+      <div class="team-info">
+        <div class="team-name">{{ member.name }}</div>
+        <div class="team-role">{{ member.info }}</div>
+        <div class="team-email">{{ member.email }}</div>
+        {% if member.research_interests %}
+        <div class="team-research"><b>Research Interests:</b> {{ member.research_interests }}</div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+
+</div>

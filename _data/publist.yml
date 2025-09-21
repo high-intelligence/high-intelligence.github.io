@@ -1,118 +1,134 @@
 
 publications:
-  - title: "In Defense of Core-set: A Density-aware Core-set Selection for Active Learning"
-    authors: "Y Kim, B Shin"
-    venue: "KDD 2022"
-    year: 2022
-  - title: "Learning to generate word representations using subword information"
-    authors: "Y Kim, KM Kim, JM Lee, SK Lee"
-    venue: "COLING 2018, 2551-2561"
-    year: 2018
-  - title: "Client-Customized Adaptation for Parameter-Efficient Federated Learning"
-    authors: "Y Kim, J Kim, WL Mok, JH Park, SK Lee"
-    venue: "ACL 2023 (Findings), 1159-1172"
-    year: 2023
-  - title: "Dynamic Structure Pruning for Compressing CNNs"
-    authors: "JH Park, Y Kim, J Kim, JY Choi, SK Lee"
-    venue: "AAAI 2023"
-    year: 2023
-  - title: "Adaptive compression of word embeddings"
-    authors: "Y Kim, KM Kim, SK Lee"
-    venue: "ACL 2020, 3950-3959"
-    year: 2020
-  - title: "From small-scale to large-scale text classification"
-    authors: "KM Kim, Y Kim, J Lee, JM Lee, SK Lee"
-    venue: "WWW 2019, 853-862"
-    year: 2019
-  - title: "An Interpretable Framework for Drug-Target Interaction with Gated Cross Attention"
-    authors: "Y Kim, B Shin"
-    venue: "MLHC 2021"
-    year: 2021
-  - title: "Multi-pretraining for large-scale text classification"
-    authors: "KM Kim, B Hyeon, Y Kim, JH Park, SK Lee"
-    venue: "EMNLP 2020 (Findings), 2041-2050"
-    year: 2020
-  - title: "Improving Bias Mitigation through Bias Experts in Natural Language Understanding"
-    authors: "E Jeon, M Lee, J Park, Y Kim, WL Mok, SK Lee"
-    venue: "EMNLP 2023, 11053-11066"
-    year: 2023
-  - title: "Leap-of-Thought: Accelerating Transformers via Dynamic Token Routing"
-    authors: "Y Kim, J Kim, JH Park, M Lee, SK Lee"
-    venue: "EMNLP 2023, 15757-15769"
-    year: 2023
-  - title: "Learning from drift: Federated learning on non-IID data via drift regularization"
-    authors: "Y Kim, B Shin"
-    venue: "arXiv preprint arXiv:2309.07189"
-    year: 2023
-  - title: "Multi-stage prompt tuning for political perspective detection in low-resource settings"
-    authors: "KM Kim, M Lee, HS Won, MJ Kim, Y Kim, SK Lee"
-    venue: "Applied Sciences 13 (10), 6252"
-    year: 2023
-  - title: "Context-based Virtual Adversarial Training for Text Classification with Noisy Labels"
-    authors: "Y Kim, DM Lee, C Seo"
-    venue: "LREC 2022"
-    year: 2022
+  - title: "Forward Knows Efficient Backward Path: Saliency-Guided Memory-Efficient Fine-tuning of Large Language Models"
+    authors: "Y Kim, SK Lee"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL) 2025"
+    year: 2025
+    url: "https://aclanthology.org/2025.acl-long.459/"
+  - title: "Curriculum Debiasing: Toward Robust Parameter-Efficient Fine-Tuning Against Dataset Biases"
+    authors: "M Lee, Y Kim, WL Mok, SK Lee"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL) 2025"
+    year: 2025
+    url: "https://aclanthology.org/2025.acl-long.469/"
   - title: "MELT: Materials-aware continued pre-training for language model adaptation to materials science"
     authors: "J Kim, Y Kim, JH Park, Y Oh, S Kim, SK Lee"
     venue: "arXiv preprint arXiv:2410.15126"
     year: 2024
+    url: "https://arxiv.org/abs/2410.15126"
   - title: "Towards Robust and Generalized Parameter-Efficient Fine-Tuning for Noisy Label Learning"
     authors: "Y Kim, J Kim, SK Lee"
-    venue: "ACL 2024, 5922-5936"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL) 2024, 5922-5936"
     year: 2024
+    url: "https://aclanthology.org/2024.acl-long.322/"
   - title: "KOMBO: Korean Character Representations Based on the Combination Rules of Subcharacters"
     authors: "SH Kim, J Park, Y Kim, SK Lee"
-    venue: "ACL 2024 (Findings), 5102-5119"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL) 2024 (Findings), 5102-5119"
     year: 2024
-  - title: "Phase-shifted Adversarial Training"
-    authors: "Y Kim, S Kim, I Seo, B Shin"
-    venue: "UAI 2023"
-    year: 2023
+    url: "https://aclanthology.org/2024.findings-acl.302/"
+  - title: "SparseFlow: Accelerating Transformers by Sparsifying Information Flows"
+    authors: "Y Kim, SK Lee"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL) 2024, 5937-5948"
+    year: 2024
+    url: "https://aclanthology.org/2024.acl-long.323/"
   - title: "Moleco: Molecular Contrastive Learning with Chemical Language Models for Molecular Property Prediction"
     authors: "JH Park, H Park, Y Kim, W Lim, SK Lee"
-    venue: "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing"
+    venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP) 2024"
     year: 2024
+    url: "https://aclanthology.org/2024.emnlp-industry.30/"
   - title: "SEED: Semantic knowledge transfer for language model adaptation to materials science"
     authors: "Y Kim, JH Park, SH Kim, J Park, S Kim, SK Lee"
-    venue: "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing"
+    venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP) 2024"
     year: 2024
+    url: "https://aclanthology.org/2024.emnlp-industry.31/"
   - title: "Zero-shot commonsense reasoning over machine imagination"
     authors: "H Park, Y Kim, JH Park, SK Lee"
     venue: "arXiv preprint arXiv:2410.09329"
     year: 2024
-  - title: "SparseFlow: Accelerating Transformers by Sparsifying Information Flows"
-    authors: "Y Kim, SK Lee"
-    venue: "ACL 2024, 5937-5948"
-    year: 2024
-  - title: "Moltres: Improving chemical language representation learning for molecular property prediction"
-    authors: "JH Park, Y Kim, M Lee, H Park, SK Lee"
-    venue: "arXiv preprint arXiv:2408.01426"
-    year: 2024
-  - title: "A Unified Approach to Word Sense Representation and Disambiguation"
-    authors: "DM Lee, Y Kim, JM Lee, SK Lee"
-    venue: "2018 IEEE 17th International Conference on Cognitive Informatics & Cognitive Computing"
-    year: 2018
-  - title: "Improving Open Directory Project-Based Text Classification with Hierarchical Category Embedding"
-    authors: "JM Lee, KM Kim, Y Kim, SK Lee"
-    venue: "2018 IEEE 17th International Conference on Cognitive Informatics & Cognitive Computing"
-    year: 2018
-  - title: "Forward Knows Efficient Backward Path: Saliency-Guided Memory-Efficient Fine-tuning of Large Language Models"
-    authors: "Y Kim, SK Lee"
-    venue: "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics"
-    year: 2025
-  - title: "Curriculum Debiasing: Toward Robust Parameter-Efficient Fine-Tuning Against Dataset Biases"
-    authors: "M Lee, Y Kim, WL Mok, SK Lee"
-    venue: "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics"
-    year: 2025
+    url: "https://arxiv.org/abs/2410.09329"
   - title: "Dynamic Layer-Wise Token Pruning for Sequence-to-Sequence Transformer Inference"
     authors: "JH Keom, Y Kim, SJ Lee, SK Lee"
-    venue: "International Conference on Pattern Recognition and Artificial Intelligence"
+    venue: "International Conference on Pattern Recognition and Artificial Intelligence (ICPRAI) 2024"
     year: 2024
+  - title: "Client-Customized Adaptation for Parameter-Efficient Federated Learning"
+    authors: "Y Kim, J Kim, WL Mok, JH Park, SK Lee"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL) 2023 (Findings), 1159-1172"
+    year: 2023
+    url: "https://aclanthology.org/2023.findings-acl.75/"
+  - title: "Dynamic Structure Pruning for Compressing CNNs"
+    authors: "JH Park, Y Kim, J Kim, JY Choi, SK Lee"
+    venue: "AAAI Conference on Artificial Intelligence (AAAI) 2023"
+    year: 2023
+    url: "https://ojs.aaai.org/index.php/AAAI/article/view/26127"
+  - title: "Improving Bias Mitigation through Bias Experts in Natural Language Understanding"
+    authors: "E Jeon, M Lee, J Park, Y Kim, WL Mok, SK Lee"
+    venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP) 2023, 11053-11066"
+    year: 2023
+    url: "https://arxiv.org/abs/2312.03577"
+  - title: "Leap-of-Thought: Accelerating Transformers via Dynamic Token Routing"
+    authors: "Y Kim, J Kim, JH Park, M Lee, SK Lee"
+    venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP) 2023, 15757-15769"
+    year: 2023
+    url: "https://aclanthology.org/2023.emnlp-main.976/"
+  - title: "Learning from drift: Federated learning on non-IID data via drift regularization"
+    authors: "Y Kim, B Shin"
+    venue: "arXiv preprint arXiv:2309.07189"
+    year: 2023
+    url: "https://arxiv.org/abs/2309.07189"
+  - title: "Multi-stage prompt tuning for political perspective detection in low-resource settings"
+    authors: "KM Kim, M Lee, HS Won, MJ Kim, Y Kim, SK Lee"
+    venue: "Applied Sciences 13 (10), 6252"
+    year: 2023
+    url: "https://www.mdpi.com/2076-3417/13/10/6252"
+  - title: "In Defense of Core-set: A Density-aware Core-set Selection for Active Learning"
+    authors: "Y Kim, B Shin"
+    venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2022"
+    year: 2022
+    url: "https://dl.acm.org/doi/abs/10.1145/3534678.3539476"
+  - title: "Context-based Virtual Adversarial Training for Text Classification with Noisy Labels"
+    authors: "Y Kim, DM Lee, C Seo"
+    venue: "International Conference on Language Resources and Evaluation (LREC) 2022"
+    year: 2022
+    url: "https://arxiv.org/abs/2206.11851"
+  - title: "An Interpretable Framework for Drug-Target Interaction with Gated Cross Attention"
+    authors: "Y Kim, B Shin"
+    venue: "Machine Learning for Healthcare (MLHC) 2021"
+    year: 2021
+    url: "https://proceedings.mlr.press/v149/kim21b.html"
+  - title: "From small-scale to large-scale text classification"
+    authors: "KM Kim, Y Kim, J Lee, JM Lee, SK Lee"
+    venue: "International World Wide Web Conference (WWW) 2019, 853-862"
+    year: 2019
+    url: "https://dl.acm.org/doi/abs/10.1145/3308558.3313563"
+  - title: "Adaptive compression of word embeddings"
+    authors: "Y Kim, KM Kim, SK Lee"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL) 2020, 3950-3959"
+    year: 2020
+    url: "https://aclanthology.org/2020.acl-main.364/"
+  - title: "Multi-pretraining for large-scale text classification"
+    authors: "KM Kim, B Hyeon, Y Kim, JH Park, SK Lee"
+    venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP) 2020 (Findings), 2041-2050"
+    year: 2020
+    url: "https://aclanthology.org/2020.findings-emnlp.185/"
   - title: "Representation Learning for Unseen Words by Bridging Subwords to Semantic Networks"
     authors: "Y Kim, KM Kim, SK Lee"
-    venue: "LREC 2020, 4774-4780"
+    venue: "International Conference on Language Resources and Evaluation (LREC) 2020, 4774-4780"
     year: 2020
   - title: "Personalizing large-scale text classification by modeling individual differences"
     authors: "J Lee, BJ Choi, Y Kim, KM Kim, WJ Ryu, SK Lee"
-    venue: "SAC 2020, 900-902"
+    venue: "ACM Symposium on Applied Computing (SAC) 2020, 900-902"
     year: 2020
+  - title: "A Unified Approach to Word Sense Representation and Disambiguation"
+    authors: "DM Lee, Y Kim, JM Lee, SK Lee"
+    venue: "IEEE International Conference on Cognitive Informatics & Cognitive Computing (ICCI*CC) 2018"
+    year: 2018
+    url: "https://ieeexplore.ieee.org/abstract/document/8482041/"
+  - title: "Improving Open Directory Project-Based Text Classification with Hierarchical Category Embedding"
+    authors: "JM Lee, KM Kim, Y Kim, SK Lee"
+    venue: "IEEE International Conference on Cognitive Informatics & Cognitive Computing (ICCI*CC) 2018"
+    year: 2018
+    url: "https://ieeexplore.ieee.org/abstract/document/8482008/"
+  - title: "Learning to generate word representations using subword information"
+    authors: "Y Kim, KM Kim, JM Lee, SK Lee"
+    venue: "International Conference on Computational Linguistics (COLING) 2018, 2551-2561"
+    year: 2018
+    url: "https://aclanthology.org/C18-1216/"

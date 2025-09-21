@@ -1,0 +1,32 @@
+---
+title: "Publications | Language and Data Intelligence Lab"
+layout: gridlay
+excerpt: "Publications | Language and Data Intelligence Lab"
+sitemap: false
+permalink: /publications/
+---
+
+{% assign pubs = site.data.publist.publications | sort: "year" | reverse %}
+{% assign years = pubs | map: "year" | uniq %}
+
+<div class="publications-list">
+{% for y in years %}
+  <h2 style="margin-top: 36px; margin-bottom: 18px;">{{ y }}</h2>
+  {% for publi in pubs %}
+    {% if publi.year == y %}
+      <div class="publication-card">
+        <div class="publication-title">
+          {% if publi.url %}
+            <a href="{{ publi.url }}" target="_blank" style="color:#111; text-decoration: none;">{{ publi.title }}</a>
+          {% else %}
+            {{ publi.title }}
+          {% endif %}
+          <span class="publication-year">{{ publi.year }}</span>
+        </div>
+        <div class="publication-authors">{{ publi.authors | replace: 'Y Kim', '<u><b>Y Kim</b></u>' }}</div>
+        <div class="publication-venue">{{ publi.venue }}</div>
+      </div>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</div>
