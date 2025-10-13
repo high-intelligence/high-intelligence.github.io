@@ -15,6 +15,13 @@ permalink: /publications/
   {% for publi in pubs %}
     {% if publi.year == y %}
       <div class="publication-card">
+        {% if publi.keywords %}
+          <div class="publication-keywords" style="margin-bottom: 6px;">
+            {% for kw in publi.keywords limit:3 %}
+              <span style="display:inline-block; background:#f0f2f6; color:#3a4a5a; border-radius:6px; padding:2px 10px; margin-right:6px; font-size:0.97em; font-weight:500;">{{ kw }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
         <div class="publication-title">
           {% if publi.url %}
             <a href="{{ publi.url }}" target="_blank" style="color:#111; text-decoration: none;">{{ publi.title }}</a>

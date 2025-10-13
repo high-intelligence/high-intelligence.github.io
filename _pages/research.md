@@ -9,7 +9,8 @@ permalink: /research/
 # Research
 
 
-The Language and Data Intelligence Lab conducts research at the intersection of natural language processing, artificial intelligence, and data science. Our mission is to advance the understanding and application of language technologies for real-world impact.
+
+The Language & Learning Intelligence Lab at HUFS researches natural language processing, artificial intelligence, and data science. We focus on developing technologies and solutions that empower communication, education, and society. Our core research includes making learning more efficient and adaptive, using AI and data-driven methods to personalize and optimize educational experiences for all learners.
 
 ![]({{ site.url }}{{ site.baseurl }}/images/respic/venn_diagram.jpg){: style="width: 300px; float: right; border: 10px"}
 
