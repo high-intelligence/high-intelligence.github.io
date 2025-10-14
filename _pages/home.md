@@ -59,6 +59,6 @@ Developing models and algorithms for text understanding, generation, and analysi
 Applying machine learning and deep learning to extract insights from large-scale language and data resources.
 
 **Data-driven Social Impact**  
-Leveraging data intelligence to address challenges in communication, education, and society.
+Leveraging data intelligence to address challenges in communication, education, and society..
 
 <br>
