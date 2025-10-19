@@ -21,8 +21,10 @@
     // Account for jankitude on images
     > img,
     > a > img {
-      @include img-responsive;
-      line-height: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  line-height: 1;
     }
 
     // WebKit CSS3 transforms for supported devices
