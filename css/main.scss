@@ -280,6 +280,24 @@ pubtit {
     margin-top: 20px;
 }
 
+  .carousel-title-line1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  .carousel-title-line2 {
+    color: #ffd600;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+
+  body.dark-mode .carousel-title-line1 {
+    color: #8ab4f8;
+  }
+  body.dark-mode .carousel-title-line2 {
+    color: #ffb300;
+  }
+
 .navbar-brand {
   display: flex;
   align-items: center;

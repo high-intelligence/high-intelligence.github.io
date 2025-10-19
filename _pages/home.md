@@ -17,27 +17,24 @@ The Language and Data Intelligence Lab advances research in natural language pro
 
         <div class="item active">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/materials.jpg" alt="Slide 1" />
-              <div style="position:absolute;left:0;bottom:0;width:100%;height:80px;background:rgba(40,60,120,0.60);display:flex;align-items:center;">
-                <span style="color:#fff;font-size:1.15em;font-weight:600;padding-left:24px;letter-spacing:1px;line-height:1.35;">
-                  Materials Science &<br>Advanced Engineering
-                </span>
-              </div>
+            <div class="carousel-overlay-header" style="position:absolute;bottom:0;width:100%;background:rgba(0,0,0,0.45);padding:18px 0 12px 18px;text-align:left;">
+              <span class="carousel-title-line1">Language and Data Intelligence Lab</span><br>
+              <span class="carousel-title-line2">Natural Language, AI & Data Science</span>
+            </div>
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/printer-fleet.jpg" alt="Slide 2" />
-              <div style="position:absolute;left:0;bottom:0;width:100%;height:80px;background:rgba(40,60,120,0.60);display:flex;align-items:center;">
-                <span style="color:#fff;font-size:1.15em;font-weight:600;padding-left:24px;letter-spacing:1px;line-height:1.35;">
-                  Printer Fleet Management<br>for Smart Labs
-                </span>
-              </div>
+            <div class="carousel-overlay-header" style="position:absolute;bottom:0;width:100%;background:rgba(0,0,0,0.45);padding:18px 0 12px 18px;text-align:left;">
+              <span class="carousel-title-line1">Language and Data Intelligence Lab</span><br>
+              <span class="carousel-title-line2">Natural Language, AI & Data Science</span>
+            </div>
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/diw.jpg" alt="Slide 3" />
-              <div style="position:absolute;left:0;bottom:0;width:100%;height:80px;background:rgba(40,60,120,0.60);display:flex;align-items:center;">
-                <span style="color:#fff;font-size:1.15em;font-weight:600;padding-left:24px;letter-spacing:1px;line-height:1.35;">
-                  Direct Ink Writing<br>Innovative Fabrication
-                </span>
-              </div>
+            <div class="carousel-overlay-header" style="position:absolute;bottom:0;width:100%;background:rgba(0,0,0,0.45);padding:18px 0 12px 18px;text-align:left;">
+              <span class="carousel-title-line1">Language and Data Intelligence Lab</span><br>
+              <span class="carousel-title-line2">Natural Language, AI & Data Science</span>
+            </div>
         </div>
         <!-- Copy more of these for more images....  -->
     </div>
